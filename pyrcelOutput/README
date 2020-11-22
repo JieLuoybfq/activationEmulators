@@ -1,0 +1,23 @@
+The csv files in this directory are used to train the various machine learning models. 
+
+The variables of interest and their definitions are:
+actFrac: The Pyrcel predicted activation fraction
+Log10N: The log of the number concentration of aerosol (cm-3) 
+Log10ug: The log of the aerosol radius (um)
+Sigma_g: Aerosol mode standard deviation 
+Kappa: Hygroscopicity
+Log10V: The log of the vertical velocity (m s-1)
+T: Temperature (Kelvin)
+P: Pressure (Pa)
+
+The ARG parameters are:
+delta_actFrac_arg: The difference between the activated fraction predicted by the ARG scheme and the Pyrcel model
+actFrac_arg: The activated fraction of aerosol predicted by the ARG scheme
+smaxes_arg: Maximum supersaturation predicted by the ARG scheme
+
+The Twomey parameters are:
+delta_actFrac: The difference between the activated fraction predicted by the Twomey scheme and the Pyrcel model
+actFrac_Twomey: The activated fraction of aerosol predicted by the Twomey scheme
+Smax_Twomey: Maximum supersaturation predicted by the Twomey scheme
+
+
